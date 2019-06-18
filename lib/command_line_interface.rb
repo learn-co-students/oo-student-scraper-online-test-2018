@@ -3,7 +3,7 @@ require_relative "../lib/student.rb"
 require 'nokogiri'
 require 'colorize'
 
-class CommandLineInterface
+class CommandLineInteface
   BASE_PATH = "./fixtures/student-site/"
 
   def run
